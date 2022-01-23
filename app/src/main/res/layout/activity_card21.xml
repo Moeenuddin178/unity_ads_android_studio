@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".card2.card2_1">
+    <ScrollView
+        android:background="@drawable/corner_radius"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bloxat"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:padding="30dp"
+                android:text="Poppy Playtime Map"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bloxat"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:padding="20dp"
+                android:text="I present to you the Poppy Playtime map which is from the horror game.
+Poppy Playtime map there are multiple areas that you can check out and those areas are listed below
+You were a former employee of Poppy Playtimes Factory. But you heard the mysterious disappearances of your colleagues. You tried to visit the factory to check it out.
+(Please take note this map is not redstone and also not a Adventure map it is just a map)
+There are multiple sections of the map (CHAPTER 1)
+You start in the entrance here you can find the entrance area and a room where you can find the Grabpack
+(the grabpack is not an item)"
+                android:textColor="@color/txt_color"
+                android:textSize="16dp"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod2_1" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod2_2" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod2_3" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod2_4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bloxat"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:padding="20dp"
+                android:text="Next is Huggy Wuggys area where you can see Huggy Wuggy for the first time in the Game. And in there are a series doors that can lead to various areas
+(some only)"
+                android:textColor="@color/txt_color"
+                android:textSize="16dp"
+                tools:ignore="MissingConstraints" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod2_5" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/next"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.sample.foo.usingcoordinatorlayout.FabAndSnackbarActivity">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/star"
+            app:backgroundTint="#304FFE"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

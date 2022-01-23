@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".card7.card71">
+    <ScrollView
+        android:background="@drawable/corner_radius"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bloxat"
+                android:gravity="center"
+                android:lineSpacingExtra="10dp"
+                android:padding="30dp"
+                android:text="Poppy PlayTime Horror Map"
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                tools:ignore="MissingConstraints" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod71" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod72" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod73" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod74" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod75" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:padding="10dp"
+                app:srcCompat="@drawable/mod76" />
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/next"
+                android:layout_gravity="right"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/coordinatorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.sample.foo.usingcoordinatorlayout.FabAndSnackbarActivity">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:layout_marginBottom="65dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/star"
+            app:backgroundTint="#304FFE"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
